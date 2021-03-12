@@ -1,0 +1,261 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 900px;
+}
+
+.navegar ul{
+    position: relative;
+    background: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navegar ul li{
+    display: inline-block;
+
+}
+
+.navegar ul li a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    padding: 15px;
+    display: block;
+}
+
+.navegar ul li:hover{
+    background: lightgrey;
+}
+
+.navegar ul ul{
+    position: absolute;
+    display: none;
+    background: lightgrey;
+    min-width: 100px;
+    height: 100px;
+    z-index: 1;
+    
+}
+
+.navegar ul ul li{
+    display: block;
+    background: #b99d9d;
+}
+
+.navegar ul li:hover ul{
+    display: block;
+}
+
+.logo{
+    border: 1px solid black;
+    background: #b99d9d;
+    height: 140px;
+}
+
+.logo img{
+    width: 200px;
+    height: 140px;
+}
+
+.titulo{
+    position: relative;
+    height: 40px;
+    width: 400px;
+    bottom: 95px;
+    left: 445px;
+}
+
+.titulo h2{
+    font-size: 120%;
+    position: relative;
+    font-style: italic;
+    font-family: Impact;
+    padding: 10px;
+    text-align: center;
+}
+
+.email{
+    position: relative;
+    width: 250px;
+    height: 70px;
+    bottom: 150px;
+    left: 1050px;
+}
+
+.email h2{
+    font-size: 120%;
+    position: relative;
+    font-family: Impact;
+    padding: 10px;
+}
+
+.fundo{
+    position: relative;
+    border: 1px solid black;
+    height: 785px;
+    top: -110px;
+    padding: 10px;
+    background-image: url(./img/entrada3.jpg);
+    
+}
+
+.rodape{
+    position: relative;
+    height: 100px;
+    bottom: 110px;
+}
+
+.rodape h2{
+    position: relative;
+    font-size: 120%;
+    top: 50px;
+    text-align: center;
+
+}
+
+.deflet{
+    position: relative;
+    border: 1px solid black;
+    height: 785px;
+    top: -110px;
+    padding: 10px;
+    
+}
+
+.preco{
+    width: 400px;
+    height: 330px;
+    position: relative;
+    left: 600px;
+    bottom: 380px;
+}
+
+.preco h2{
+    font-size: 150%;
+    margin: 13px;
+    color: brown;
+}
+
+.preco h3{
+    font-size: 150%;
+    margin: 19px;
+    color: brown
+}
+
+.preco p{
+    font-size: 110%;
+    margin: 10px;
+    padding: 5px;
+    font-family: cursive;
+}
+
+
+.textoEmp{
+    width: 400px;
+    height: 330px;
+    position: relative;
+    left: 640px;
+    bottom: 380px;
+}
+
+.textoEmp h2{
+    font-size: 150%;
+    margin: 13px;
+    color: brown;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.exterior{
+    height: 333px;
+}
+
+.textoMB{
+   
+    position: relative;
+    border: 2px;
+    border-style: dotted;
+    height: 345px;
+    top: 30px;
+    padding: 10px;
+    width: 500px;
+    left: 300px;
+    margin-left: 100px;
+   
+    
+}
+
+.textoMB h2{
+    text-align: center;
+    color: brown;
+}
+
+.textoMB h3{
+   position: relative;
+   font-size: 120%;
+   text-align: center;
+    color: rgb(241, 24, 24);
+}
+
+
+.formulario{
+    position: relative;
+    border: 1px solid black;
+    height: 500px;
+    display: inline-block;
+    left: 350px;
+    padding: 10px;
+    top: 50px;
+    z-index: 1;
+    
+}
+
+.formulario legend{
+    font-size: 150%;
+    text-align: center;
+    
+}
+
+.formulario label{
+    font-family: cursive;
+    margin: 10px;
+    display: inline-block;
+}
+
+.formulario input{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.formulario input:hover{
+    background: cornflowerblue;
+}
+
+.formulario button{
+    position: relative;
+    padding: 0 15px;
+    top: 20px;
+    border-radius: 10px;
+    background-color: cyan;
+    font-size: 120%;
+}
+
+
+.fundao{
+    position: relative;
+    border: 1px solid black;
+    height: 785px;
+    top: -520px;
+    background-image: url(./img/entrada3.jpg);
+    opacity: 0.4;
+    right: 10px;
+    width: 1344px;
+    height: 800px;
+    top: -531px;
+    
+}
